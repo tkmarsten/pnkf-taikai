@@ -1,8 +1,11 @@
 {
   "name": "pnkf-taikai",
+  "homepage": "https://tkmarsten.github.io/pnkf-taikai",
   "private": true,
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
@@ -11,6 +14,7 @@
   "dependencies": {
     "@react-router/node": "^8",
     "@react-router/serve": "^8",
+    "gh-pages": "^6.3.0",
     "isbot": "^5.1.36",
     "lucide-react": "^1.28.0",
     "react": "^19.2.7",
