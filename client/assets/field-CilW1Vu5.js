@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-glcrDxxs.js";var t=e();function n({label:e,children:n}){return(0,t.jsxs)(`div`,{className:`mb-3.5`,children:[(0,t.jsxs)(`label`,{className:`block text-xs uppercase font-semibold mb-1.5`,style:{letterSpacing:`0.5px`,color:`#6B6B6B`},children:[e,` `,(0,t.jsx)(`span`,{style:{color:`#B3261E`},children:`*`})]}),n]})}export{n as t};
