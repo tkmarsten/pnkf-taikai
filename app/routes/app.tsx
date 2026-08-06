@@ -1,5 +1,4 @@
 import type { Route } from "./+types/app";
-import Nav from "../components/nav";
 import Home from "./home";
 
 export function meta({}: Route.MetaArgs) {
